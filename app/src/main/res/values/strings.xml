@@ -1,0 +1,90 @@
+<resources>
+    <string name="accept">Accept</string>
+    <string name="app_name">Compass and Flashlight</string>
+    <string name="cancel">Cancel</string>
+    <string name="checkmark_symbol">\u2713</string>
+    <string name="copyright_symbol">\u00A9</string>
+    <string name="decline">Decline</string>
+    <string name="degrees_symbol">\u00B0</string>
+    <string name="heading">Heading:</string>
+    <string name="jrdcom">johnriggsdev.com</string>
+    <string name="no">No</string>
+    <string name="ok">Okay</string>
+    <string name="settings">App Settings</string>
+    <string name="turn_off">Turn Off Flashlight</string>
+    <string name="turn_on">Turn On Flashlight</string>
+    <string name="yes">Yes</string>
+
+    //API 23+ Permission String
+    <string name="camera_permission">CAMERA Permission</string>
+    <string name="camera_permission_denied">CAMERA permission denied; unable to access LED flash.</string>
+    <string name="camera_permission_message">The CAMERA permission must be accepted prior to using the LED flash. You can grant this permission by going to Settings >>> Apps >>> Compass and Flashlight >>> Permissions >>> Camera. </string>
+
+    //Directional strings
+    <string name="due_north">Due North</string>
+    <string name="due_east">Due East</string>
+    <string name="due_south">Due South</string>
+    <string name="due_west">Due West</string>
+    <string name="north">N</string>
+    <string name="north_northeast">NNE</string>
+    <string name="northeast">NE</string>
+    <string name="east_northeast">ENE</string>
+    <string name="east">E</string>
+    <string name="east_southeast">ESE</string>
+    <string name="southeast">SE</string>
+    <string name="south_southeast">SSE</string>
+    <string name="south">S</string>
+    <string name="south_southwest">SSW</string>
+    <string name="southwest">SW</string>
+    <string name="west_southwest">WSW</string>
+    <string name="west">W</string>
+    <string name="west_northwest">WNW</string>
+    <string name="northwest">NW</string>
+    <string name="north_northwest">NNW</string>
+
+    //Settings Screen Strings
+    <string name="background_flash">Background Flashlight</string>
+    <string name="background_flash_question">Leave LED flashlight on when app is in background?</string>
+    <string name="build_header">Build This App Yourself!</string>
+    <string name="build_message">Tap here to view the tutorial on johnriggsdev.com.</string>
+    <string name="color_scheme">App Color Scheme</string>
+    <string name="compass_calibration">Compass Calibration</string>
+    <string name="compass_calibration_message">Tap here to learn how to calibrate your compass.</string>
+    <string name="compass_rose">Compass Rose</string>
+    <string name="flash_mode">Flashlight Mode</string>
+    <string name="flash_mode_led">LED Flash Only</string>
+    <string name="flash_mode_led_screen">LED Flash and Device Screen</string>
+    <string name="flash_mode_screen">Device Screen Only</string>
+    <string name="flash_mode_screen_no_led">Device Screen Only (No LED Flash Detected)</string>
+    <string name="heading_display">Heading Display</string>
+    <string name="heading_azimuth">Azimuth: 83\u00B0 (E)</string>
+    <string name="heading_quadrant">Quadrant: N 83\u00B0 E</string>
+    <string name="version">Version:</string>
+    <string name="wake_lock_header">Wake Lock</string>
+    <string name="wake_lock_note">NOTE: Both Background Flashlight and Wake Lock should be set to \'No\' if you want the LED to turn off when the phone display times out.</string>
+    <string name="wake_lock_question">Prevent device from sleeping while app is active?</string>
+
+    //Terms of Use Strings
+    <string name="accept_decline">Accept/Decline</string>
+    <string name="accept_decline_terms">Accept or Decline Terms of Use</string>
+    <string name="accept_decline_terms_message">To continue using this app, you must first accept the terms of use you just read.</string>
+    <string name="battery_header">Battery Life</string>
+    <string name="battery_message">During the use of this app, the camera LED flash, screen, and compass on your device may be continually active. As a result, you may see significant battery drain while using the app- potentially draining the device battery completely if any of the app functions are left running. This is how these things work. You\'ve been warned.</string>
+    <string name="compass_header">The Compass</string>
+    <string name="compass_message">The compass included in this app is only as accurate as the in-device compass it accesses. The more accurately calibrated the compass in your device, the more accurate the in-app compass will be. Interference from outside sources or devices may also affect the compass accuracy. Because of these things, you should use the app compass only for educational or entertainment purposes. Under no circumstances should this be used for serious navigation, trans-Atlantic flight, or to find the thing that you desire most. Visit the settings screen to learn more about device calibration.</string>
+    <string name="data_collection_header">Data Collection</string>
+    <string name="data_collection_message">This app collects and sends absolutely NO personally identifiable data. It doesn\'t care about you, your bizarre web browsing habits, where you really go when you are \"at work,\" what size mittens your cat wears, or whom you secretly text while in the bathroom. It is a flashlight and compass. It does not require any such things to function. The app does use Fabric Crashlytics for crash reporting- device manufacturer (i.e. Samsung), Android version, and relevant app data (i.e. app version, type of error and offending line of code) are sent with the reports. No other data is visible nor is any wanted.</string>
+    <string name="flashlight_header">The Flashlight</string>
+    <string name="flashlight_message">The flashlight in this app is designed to access the camera LED flash on your device as well as your device screen. In devices without a camera flash, only the screen can be used as a light. In the settings menu, there are options to choose both the flashlight mode and whether or not the camera LED flash will stay on when you background the app.</string>
+    <string name="liability_header">Limitation of Liablity</string>
+    <string name="liability_message">(Legal stuff) In no event will the application developer be liable for any direct, indirect, special, punitive, exemplary or consequential losses or damages of whatsoever kind arising out of your use or access to this application, including loss of profit or the like whether or not in the contemplation of the parties, whether based on breach of contract, tort (including negligence), product liability or otherwise. The application developer is not liable to you for any damage or alteration to your equipment including but not limited to computer equipment, handheld device or mobile telephones as a result of the installation or use of this application. Nothing in these terms shall exclude or limit the application developer\'s liability for death or personal injury caused by negligence or for fraud or fraudulent misrepresentation or any other liability which cannot be excluded or limited under applicable law.</string>
+    <string name="terms_header">Terms of Use</string>
+    <string name="terms_message">Some things to know before using this app:</string>
+    <string name="tutorial_header">Learn How to Build This App</string>
+    <string name="tutorial_message">This app is the finished product of a tutorial offered on johnriggsdev.com. Learn to build this app (and others) by visiting the site.</string>
+    <string name="use_header">App Usage</string>
+    <string name="use_message">This app is free to use and distribute by anyone with an Android device capable of running it. You are free to use and modify the original source code as you wish. However, as it is freely given (and not coded by you), don\'t charge anyone for it or pass it off as your own. Please give credit where credit is due and reference johnriggsdev.com if you use the source code.</string>
+    <string name="warranty_header">Disclaimer of Warranties</string>
+    <string name="warranty_message">(A little more legal stuff) To the maximum extent permitted by law, the application developer hereby disclaims all implied warranties with regard to this application. The application and software are provided \"as is\" and \"as available\" without warranty of any kind.</string>
+
+</resources>
